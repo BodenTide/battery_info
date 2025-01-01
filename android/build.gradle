@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.igrik12.battery_info'
     compileSdkVersion 33
 
     sourceSets {
